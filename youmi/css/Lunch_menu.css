@@ -1,0 +1,130 @@
+.page{
+	margin-top: 0;
+	font-family: "微软雅黑";
+}
+li{
+	list-style: none;
+}
+a{
+	color: white;
+}
+.yo_header{
+	background:url(../img/bg_head_01.jpg) no-repeat ;	
+	background-size:100% ;
+	position: relative;
+}
+.yo_header h1 {
+  font-size: 16px;
+  color: white;
+  padding: 12px 0;
+  margin: 0;
+  text-align: center;
+}
+.yo_header a {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  color: white;
+}
+.rows{
+	background:#d9d9d9 ;
+	padding: 8px 0;
+}
+.sj{
+	display: block;
+	width: 0;
+	height: 0;
+	border: 5px solid #1b1b1b;
+	border-color: #1b1b1b transparent transparent; 
+}
+.rows ul{
+  margin-top: 0;
+  margin-bottom: 10px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+.rows li{
+  color: #7d7d7d;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+.rows .yo_sell {
+	color: #434343;
+}
+
+.yo_header b{
+	position: absolute;
+	bottom: -10px;
+  	left: 48%;
+}
+.yo_search{
+	position: relative;
+	padding: 5px 0px;
+}
+.search_big{
+	color: #959595;
+	position: absolute;
+	top: 10px;
+  	left: 20px;
+}
+form{
+	text-align: center;
+}
+input[type="text"] {
+  width: 75%;
+  border: none;
+}
+.yo_Storefront{
+	position: relative;
+}
+.sell_details{
+	position: absolute;
+	bottom: 10px;
+	/*left: 5%;*/
+}
+.sell_details h1 {
+  color: #f2c743;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin: 0;
+  padding: 3px 0;
+}
+.sell_details span{
+	color: white;
+	font-size: 14px;
+}
+.sell_details b {
+  display: inline-block;
+  width: 14px;
+  height: 9px;
+  margin-top: 4px;
+  margin-right: 5px;
+  
+}
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+	.search_big {
+  		left: 25px;
+	}
+	
+}
+@media only screen and (min-width: 361px) and (max-width: 375px) {
+	.search_big {
+  		left: 30px;
+	}
+}
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+	.search_big {
+  		left: 35px;
+	}
+}
+
+
+
+
+
+
+
+
