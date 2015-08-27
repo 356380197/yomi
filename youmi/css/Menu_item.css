@@ -1,0 +1,178 @@
+*:focus {outline: none;} 
+.page{
+	font-family: "微软雅黑";
+}
+.menu_info {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+.menu_info h1{
+  font-size: 20px;
+  color: #f2c743;
+  margin: 0;
+  padding: 0;
+}
+.menu_info span{
+	color: white;
+}
+.menu_info b{
+	width: 15px;
+	height: 11px;
+	display: inline-block;
+}
+.menu_good.pull-right {
+  margin-right: 20px;
+}
+.row{padding: 0;margin: 0;}
+.nav h3{
+	margin:0px;
+	padding: 0px;
+	font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: #7d7d7d;
+}
+.nav h3.oncolor{
+	color: #000000;
+}
+.row.nav {
+  background-color: #d9d9d9;
+  padding: 10px 0;
+  /*position: relative;*/
+}
+.sj{
+	display: block;
+	width: 0;
+	height: 0;
+	border: 8px solid black;
+	border-color:black transparent transparent;
+}
+.Evaluation i {
+  position: absolute;
+  top: -10px;
+  left: 43%;
+}
+.Cook i{
+  position: absolute;
+  top: -10px;
+  left: 43%;
+  display: none;
+}
+.secret i{
+  position: absolute;
+  top: -10px;
+  left: 43%;
+  display: none;
+}
+.scrept {
+	
+}
+.scrept h4{
+	font-size: 13px;
+	margin: 10px 0 5px;
+}
+.scrept p{
+	font-size:12px ;
+	margin: 0;
+}
+.scrept span{
+	font-size: 12px;
+	color: #a0a0a0;
+}
+.view_list {
+  border-bottom: 1px dotted #bfbfbf;
+  padding-bottom: 10px;
+  width: 94%;
+  margin: 0 auto;
+}
+.view_img{
+	margin-top: 15px;
+	padding: 0 5px;
+}
+div.view_list:last-child{
+	border: none;
+}
+/**/
+.pop_view{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.2);
+	display: none;
+}
+
+.out{
+	background: white;
+	margin-top: 30px;
+}
+textarea{
+	border: none;
+	background: #E4E4E4;
+	width: 80%;
+	resize: none;
+	height: 250px;
+}
+input[type="submit"]{
+	border: none;
+	color: white;
+	background: #f2c743;
+	padding: 5px 30px;
+	margin: 20px 0 40px;
+}
+.pop_view form{
+	text-align: center;
+}
+.pop_view h2,.pop_Ingredients h2,.pop_Cook h2{
+	text-align: center;
+	font-size: 18px;
+	color: #535353;
+	padding: 20px 0 0px;
+	margin:0;
+}
+.pop_view h2{
+	padding: 20px 0 10px;
+}
+/**/
+.pop_Ingredients{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.2);
+	display: none;
+}
+.Ingredients_img,.Accessories_img,.pop_Cook_img{
+	width: 91px;
+	height: 91px;
+	margin: 20px auto 10px
+}
+.Ingredients p,.Accessories p,.pop_Cook p{
+	  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 12px;
+}
+.btn_close {
+  text-align: center;
+}
+.btn_close input[type="button"]{
+	border: none;
+	color: white;
+	background: #f2c743;
+	padding: 5px 30px;
+	margin: 25px 0px 35px;
+}
+/**/
+.pop_Cook{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.2);
+	display: none;
+}
